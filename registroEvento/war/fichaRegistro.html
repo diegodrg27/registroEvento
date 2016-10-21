@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- The HTML 4.01 Transitional DOCTYPE declaration-->
+<!-- above set at the top of the file will set     -->
+<!-- the browser's rendering engine into           -->
+<!-- "Quirks Mode". Replacing this declaration     -->
+<!-- with a "Standards Mode" doctype is supported, -->
+<!-- but may lead to some differences in layout.   -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <h1>Registro</h1>
+    <h2>Datos Personales</h2>
+    	<table>
+    		<tr><td>Nombres:</td><td><input type="text" name="nombres"></td></tr>  	
+	    	<tr><td>Apellidos:</td><td><input type="text" name="apellidos"></td></tr>
+	    	<tr><td>Institución:</td><td><input type="text" name="institucion"></td></tr>
+	    	<tr><td>País:</td>
+	    		<td>
+	    		<select>
+	    			<option value="Argentina">Argentina</option>
+	    			<option value="Brasil">Brasil</option>
+	    			<option value="Colombia">Colombia</option>
+	    			<option value="Chile">Chile</option>
+	    			<option value="Ecuador">Ecuador</option>
+	    			<option value="Paraguay">Paraguay</option>
+	    			<option value="Peru">Perú</option>
+	    			<option value="Venezuela">Venezuela</option>
+	    			<option value="Uruguay">Uruguay</option>
+	    		</select>
+	    	</td></tr>
+	    </table>
+    <h2>Contactos</h2>
+    	<table>
+    		<tr><td>Teléfono:</td><td><input type="text" name="telefono"></td></tr>  	
+	    	<tr><td>E-mail:</td><td><input type="text" name="email"></td></tr>
+	    </table>
+    <h2>Categoría de registro</h2>
+    	<table>
+    		<tr>
+    			<td><input type="checkbox" name="categoria" value="autor" checked>Autor</td>
+    			<td><input type="checkbox" name="categoria" value="profesional">Profesional</td>
+    		</tr>  	
+	    	<tr>
+	    		<td><input type="checkbox" name="categoria" value="estudiante">Estudiante</td>
+	    		<td><input type="checkbox" name="categoria" value="empresa">Empresa</td>
+	    	</tr>
+	    	<tr>
+	    		<td><input type="checkbox" name="categoria" value="libre">Libre</td>
+	    	</tr>	
+	    </table>
+	    
+  </body>
+</html>
